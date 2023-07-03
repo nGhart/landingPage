@@ -37,7 +37,7 @@ body {
   padding: 5px;
 }
 main {
-  margin: 100px 20px auto;
+  margin: 100px auto 70px;
   width: 90vw;
 }
 section {
@@ -45,6 +45,10 @@ section {
 }
 .formSection {
   text-align: center;
+}
+h2 {
+  text-align: center;
+  padding: 20px;
 }
 #form {
   width: 100%;
@@ -81,7 +85,6 @@ blockquote {
 .quote::before {
   content: '" ';
 }
-
 .quote::after {
   content: ' "';
 }
@@ -92,13 +95,13 @@ blockquote {
   justify-content: center;
   align-items: center;
 }
+#reviews p {
+  padding-bottom: 20px;
+}
 video {
   height: 400px;
   z-index: -1;
-}
-h2 {
-  text-align: center;
-  padding: 20px;
+  margin: auto 10px;
 }
 .services {
   display: grid;
@@ -116,13 +119,17 @@ h2 {
   border-radius: 50%;
   padding: 5px;
 }
-
 .cardText {
   font-style: italic;
   padding: 15px;
 }
-#reviews h3 {
-  padding-bottom: 20px;
+footer {
+  background-color: cornflowerblue;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
 }
 @media (max-width: 700px) {
   #email {
@@ -176,12 +183,4 @@ h2 {
     display: flex;
     flex-direction: column;
   }
-}
-footer {
-  background-color: cornflowerblue;
-  text-align: center;
-  padding: 20px;
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
 }
